@@ -1,25 +1,27 @@
-To-Do List
+# To-Do List
 
-Simple, minimal to-do list built with HTML/CSS/JS (learning project).
+Simple, minimal to-do list built with HTML/CSS/JS.
 
-What this is
-
+## What this is
 A small client-side to-do list app demonstrating DOM manipulation and local storage.
 
-Features
+## Features
+- Add / remove tasks  
+- Mark tasks as completed  
+- Persistent data with `localStorage`
 
-Add / remove tasks
+## Tech
+- HTML, CSS, JavaScript
 
-Mark tasks as completed
+## How to run
+Open `index.html` in your browser, or run:
+```bash
+python -m http.server 8000
+# visit http://localhost:8000
+```
 
-Persistent in browser via localStorage
+## Contributing
+PRs are welcome — small improvements like accessibility or responsive tweaks appreciated.
 
-Tech
-
-HTML, CSS, JavaScript
-
-How to run
-
-Open index.html in your browser (double-click or serve via a static server).
-
-To serve locally:
+## License
+MIT
